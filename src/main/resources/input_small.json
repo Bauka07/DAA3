@@ -1,0 +1,46 @@
+{
+  "graphs": [
+    {
+      "name": "Small City Network - 4 Districts",
+      "description": "Basic city with 4 districts for testing correctness",
+      "vertices": 4,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 10},
+        {"from": 0, "to": 2, "cost": 6},
+        {"from": 0, "to": 3, "cost": 5},
+        {"from": 1, "to": 3, "cost": 15},
+        {"from": 2, "to": 3, "cost": 4}
+      ]
+    },
+    {
+      "name": "Small City Network - 5 Districts",
+      "description": "Small city with 5 districts",
+      "vertices": 5,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 2},
+        {"from": 0, "to": 3, "cost": 6},
+        {"from": 1, "to": 2, "cost": 3},
+        {"from": 1, "to": 3, "cost": 8},
+        {"from": 1, "to": 4, "cost": 5},
+        {"from": 2, "to": 4, "cost": 7},
+        {"from": 3, "to": 4, "cost": 9}
+      ]
+    },
+    {
+      "name": "Small City Network - 6 Districts (Dense)",
+      "description": "Dense small city network",
+      "vertices": 6,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 4},
+        {"from": 0, "to": 2, "cost": 3},
+        {"from": 1, "to": 2, "cost": 1},
+        {"from": 1, "to": 3, "cost": 2},
+        {"from": 2, "to": 3, "cost": 4},
+        {"from": 2, "to": 4, "cost": 5},
+        {"from": 3, "to": 4, "cost": 2},
+        {"from": 3, "to": 5, "cost": 6},
+        {"from": 4, "to": 5, "cost": 6}
+      ]
+    }
+  ]
+}

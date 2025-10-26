@@ -1,0 +1,138 @@
+{
+  "results": [
+    {
+      "graph_id": 0,
+      "prim": {
+        "algorithm": "Prim's Algorithm",
+        "total_cost": 15,
+        "vertex_count": 4,
+        "original_edge_count": 5,
+        "mst_edge_count": 3,
+        "operation_count": 28,
+        "execution_time_ms": 0.234,
+        "mst_edges": [
+          {
+            "from": 0,
+            "to": 3,
+            "cost": 5
+          },
+          {
+            "from": 3,
+            "to": 2,
+            "cost": 4
+          },
+          {
+            "from": 2,
+            "to": 0,
+            "cost": 6
+          }
+        ]
+      },
+      "kruskal": {
+        "algorithm": "Kruskal's Algorithm",
+        "total_cost": 15,
+        "vertex_count": 4,
+        "original_edge_count": 5,
+        "mst_edge_count": 3,
+        "operation_count": 25,
+        "execution_time_ms": 0.187,
+        "mst_edges": [
+          {
+            "from": 2,
+            "to": 3,
+            "cost": 4
+          },
+          {
+            "from": 0,
+            "to": 3,
+            "cost": 5
+          },
+          {
+            "from": 0,
+            "to": 2,
+            "cost": 6
+          }
+        ]
+      },
+      "comparison": {
+        "costs_match": true,
+        "cost_difference": 0,
+        "time_difference_ms": 0.047,
+        "operation_difference": 3,
+        "faster_algorithm": "Kruskal"
+      }
+    },
+    {
+      "graph_id": 1,
+      "prim": {
+        "algorithm": "Prim's Algorithm",
+        "total_cost": 16,
+        "vertex_count": 5,
+        "original_edge_count": 7,
+        "mst_edge_count": 4,
+        "operation_count": 42,
+        "execution_time_ms": 0.312,
+        "mst_edges": [
+          {
+            "from": 0,
+            "to": 1,
+            "cost": 2
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "cost": 3
+          },
+          {
+            "from": 1,
+            "to": 4,
+            "cost": 5
+          },
+          {
+            "from": 0,
+            "to": 3,
+            "cost": 6
+          }
+        ]
+      },
+      "kruskal": {
+        "algorithm": "Kruskal's Algorithm",
+        "total_cost": 16,
+        "vertex_count": 5,
+        "original_edge_count": 7,
+        "mst_edge_count": 4,
+        "operation_count": 38,
+        "execution_time_ms": 0.289,
+        "mst_edges": [
+          {
+            "from": 0,
+            "to": 1,
+            "cost": 2
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "cost": 3
+          },
+          {
+            "from": 1,
+            "to": 4,
+            "cost": 5
+          },
+          {
+            "from": 0,
+            "to": 3,
+            "cost": 6
+          }
+        ]
+      },
+      "comparison": {
+        "costs_match": true,
+        "cost_difference": 0,
+        "time_difference_ms": 0.023,
+        "operation_difference": 4,
+        "faster_algorithm": "Kruskal"
+      }
+    }
+  ]
+}

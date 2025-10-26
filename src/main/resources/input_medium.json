@@ -1,0 +1,85 @@
+{
+  "graphs": [
+    {
+      "name": "Medium City Network - 10 Districts",
+      "description": "Medium-sized city transportation network",
+      "vertices": 10,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 3},
+        {"from": 0, "to": 2, "cost": 5},
+        {"from": 0, "to": 3, "cost": 4},
+        {"from": 1, "to": 3, "cost": 2},
+        {"from": 1, "to": 4, "cost": 6},
+        {"from": 2, "to": 3, "cost": 1},
+        {"from": 2, "to": 5, "cost": 8},
+        {"from": 3, "to": 4, "cost": 3},
+        {"from": 3, "to": 5, "cost": 7},
+        {"from": 3, "to": 6, "cost": 9},
+        {"from": 4, "to": 6, "cost": 5},
+        {"from": 4, "to": 7, "cost": 4},
+        {"from": 5, "to": 6, "cost": 6},
+        {"from": 5, "to": 8, "cost": 10},
+        {"from": 6, "to": 7, "cost": 2},
+        {"from": 6, "to": 8, "cost": 7},
+        {"from": 7, "to": 9, "cost": 3},
+        {"from": 8, "to": 9, "cost": 5}
+      ]
+    },
+    {
+      "name": "Medium City Network - 12 Districts",
+      "description": "Medium city with 12 interconnected districts",
+      "vertices": 12,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 7},
+        {"from": 0, "to": 2, "cost": 8},
+        {"from": 1, "to": 2, "cost": 3},
+        {"from": 1, "to": 3, "cost": 6},
+        {"from": 2, "to": 3, "cost": 4},
+        {"from": 2, "to": 4, "cost": 3},
+        {"from": 3, "to": 4, "cost": 2},
+        {"from": 3, "to": 5, "cost": 5},
+        {"from": 4, "to": 5, "cost": 2},
+        {"from": 4, "to": 6, "cost": 7},
+        {"from": 5, "to": 6, "cost": 4},
+        {"from": 5, "to": 7, "cost": 8},
+        {"from": 6, "to": 7, "cost": 3},
+        {"from": 6, "to": 8, "cost": 6},
+        {"from": 7, "to": 8, "cost": 3},
+        {"from": 7, "to": 9, "cost": 4},
+        {"from": 8, "to": 9, "cost": 2},
+        {"from": 8, "to": 10, "cost": 6},
+        {"from": 9, "to": 10, "cost": 5},
+        {"from": 9, "to": 11, "cost": 7},
+        {"from": 10, "to": 11, "cost": 4}
+      ]
+    },
+    {
+      "name": "Medium City Network - 15 Districts (Sparse)",
+      "description": "Sparse medium city network for performance testing",
+      "vertices": 15,
+      "edges": [
+        {"from": 0, "to": 1, "cost": 12},
+        {"from": 0, "to": 2, "cost": 8},
+        {"from": 1, "to": 3, "cost": 15},
+        {"from": 2, "to": 3, "cost": 10},
+        {"from": 2, "to": 4, "cost": 7},
+        {"from": 3, "to": 5, "cost": 9},
+        {"from": 4, "to": 5, "cost": 11},
+        {"from": 4, "to": 6, "cost": 6},
+        {"from": 5, "to": 7, "cost": 13},
+        {"from": 6, "to": 7, "cost": 8},
+        {"from": 6, "to": 8, "cost": 14},
+        {"from": 7, "to": 9, "cost": 10},
+        {"from": 8, "to": 9, "cost": 12},
+        {"from": 8, "to": 10, "cost": 9},
+        {"from": 9, "to": 11, "cost": 7},
+        {"from": 10, "to": 11, "cost": 11},
+        {"from": 10, "to": 12, "cost": 15},
+        {"from": 11, "to": 13, "cost": 8},
+        {"from": 12, "to": 13, "cost": 10},
+        {"from": 12, "to": 14, "cost": 6},
+        {"from": 13, "to": 14, "cost": 9}
+      ]
+    }
+  ]
+}
